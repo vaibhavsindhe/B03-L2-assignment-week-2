@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
     const nav = [
         {
-            logo: "logo.png",
+            logo:"Logo.png",
             links: {
                 shop: "#",
                 brand: "#",

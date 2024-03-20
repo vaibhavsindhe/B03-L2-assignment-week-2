@@ -156,3 +156,27 @@ body {
     align-items: center;
     justify-content: center;
 }
+@media (max-width:500px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    .left-section{
+        padding: 0;
+    }
+    .bottom-section{
+        margin-right: 3rem;
+    }
+    .product-title{
+        font-size: 2rem;
+
+    }
+    .product-subtitle{
+        font-size: 1.5rem;
+    }
+    .product-description{
+        font-size: 1rem;
+    }
+    .product-price{
+        font-size: 1.5rem;
+    }
+}
